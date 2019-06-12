@@ -38,9 +38,6 @@ with open(PyPollcsv, newline="") as csvfile:
     winning_vote_count = max(vote_count)
     winner = unique_candidate[vote_count.index(winning_vote_count)]
     
-# Note to TA: I have tried several ways to get the max of the votecount list and retrieve the name as Winner. But unsucessful. 
-# Hence I am leaving that part out of this code. But Khan is the winner, I know!!!!
-# Jake suggested: votecount = votecount["percentage"].sort_values()
 # Print to terminal
 # Output perhaps needs to be rounded to 3 decimal points. Leaving that formatting out for now) 
  

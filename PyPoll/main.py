@@ -4,7 +4,7 @@ import csv
 
 # Set the path for the CSV file in PyPollcsv
 
-PyPollcsv = os.path.join("Resources","election_data.csv")
+PyPollcsv = os.path.join("../","Desktop","election_data.csv")
 
 # Create the lists to store data. Initialize
 
